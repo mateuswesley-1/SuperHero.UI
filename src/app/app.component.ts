@@ -9,7 +9,7 @@ import { GatoService } from './services/gato.service';
 })
 export class AppComponent implements OnInit {
 
-  title = 'SuperHero.UI';
+  title = 'Gatos.UI';
   gatos: Gato[] = [];
 
   constructor(private gatoService: GatoService) {}

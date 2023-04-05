@@ -2,11 +2,15 @@
     <thead>
         <th>Name</th>
         <th>Age</th>
+        <th>Owner</th>
+        <th>Kind</th>
     </thead>
     <tbody>
         <tr *ngFor="let gato of gatos">
             <td>{{gato.name}}</td>
             <td>{{gato.age}} years old</td>
+            <td>{{gato.owner}}</td>
+            <td>{{gato.kind}}</td>
         </tr>
     </tbody>
 </table>
